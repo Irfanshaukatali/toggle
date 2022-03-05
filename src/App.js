@@ -9,7 +9,8 @@ export default function App() {
   return (
     <div>
       <h1>toggle functionality!</h1>
-      {state ?'irfan':"ahmad"}
+     {state ?'irfan':"ahmad"}
+      <br/>
       <button onClick = {toggle}>toggle</button>
     </div>
   );
